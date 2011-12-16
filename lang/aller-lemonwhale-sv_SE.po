@@ -1,0 +1,103 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Aller Lemonwhale\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-16 15:05+0100\n"
+"PO-Revision-Date: 2011-12-16 15:31+0100\n"
+"Last-Translator: Johannes Henrysson <johannes.henrysson@aller.se>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: AllerLemonwhale.class.php:47
+#: templates/admin.php:2
+msgid "administration"
+msgstr "administration"
+
+#: AllerLemonwhale.class.php:65
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har inte behörighet att visa denna sida."
+
+#: templates/admin.php:5
+msgid "Success! Your changes were successfully saved."
+msgstr "Dina ändringar har sparats."
+
+#: templates/admin.php:9
+msgid "Error! No changes were saved."
+msgstr "Fel! Inga ändringar har sparats."
+
+#: templates/admin.php:13
+msgid "Available settings for shortcode"
+msgstr "Tillgängliga inställningar för \"shortcode\"."
+
+#: templates/admin.php:18
+msgid "ID to choose video."
+msgstr "ID för att välja film."
+
+#: templates/admin.php:23
+msgid "Set width of player."
+msgstr "Bestäm bredd på videospelare."
+
+#: templates/admin.php:28
+msgid "Set height of player."
+msgstr "Bestäm höjd på videospelare."
+
+#: templates/admin.php:31
+msgid "Write the shortcode in any post or on any page."
+msgstr "Använd \"shortcode\" i inlägg och på sidor."
+
+#: templates/admin.php:35
+msgid "Examples"
+msgstr "Exempel"
+
+#: templates/admin.php:40
+msgid "It's recommended to use general settings, as they automatically suggest 16:9"
+msgstr "Använd helst \"Allmänna inställningar\", eftersom de automatiskt föreslår 16:9."
+
+#: templates/admin.php:45
+msgid "General settings"
+msgstr "Allmänna inställningar"
+
+#: templates/admin.php:49
+msgid "Width"
+msgstr "Bredd"
+
+#: templates/admin.php:53
+msgid "Height"
+msgstr "Höjd"
+
+#: templates/admin.php:61
+msgid "Advanced settings"
+msgstr "Avancerade inställningar"
+
+#: templates/admin.php:65
+msgid "Site id"
+msgstr ""
+
+#: templates/admin.php:69
+msgid "Sitegroup id"
+msgstr ""
+
+#: templates/admin.php:73
+msgid "Playerinstance id"
+msgstr ""
+
+#: templates/admin.php:77
+msgid "Playersettings id"
+msgstr ""
+
+#: templates/admin.php:81
+msgid "Panel type"
+msgstr ""
+
+#: templates/admin.php:88
+msgid "Save changes"
+msgstr "Spara förändringar"
+
