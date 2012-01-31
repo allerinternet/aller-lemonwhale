@@ -58,32 +58,6 @@
     
     <br class="clear">
     
-    <h3><?php _e('Advanced settings'); ?></h3>
-    <table class="form-table">
-      <tbody>
-        <tr>
-          <th scope="row"><label for="siteid"><?php _e('Site id'); ?></label></th>
-          <td><input type="text" name="siteid" id="siteid" value="<?php if (isset($siteid)) print $siteid; ?>" size="40"></td>
-        </tr>
-        <tr>
-          <th scope="row"><label for="sitegroupid"><?php _e('Sitegroup id'); ?></label></th>
-          <td><input type="text" name="sitegroupid" id="sitegroupid" value="<?php if (isset($sitegroupid)) print $sitegroupid; ?>" size="40"></td>
-        </tr>
-        <tr>
-          <th scope="row"><label for="playerinstanceid"><?php _e('Playerinstance id'); ?></label></th>
-          <td><input type="text" name="playerinstanceid" id="playerinstanceid" value="<?php if (isset($playerinstanceid)) print $playerinstanceid; ?>" size="40"></td>
-        </tr>
-        <tr>
-          <th scope="row"><label for="playersettingsid"><?php _e('Playersettings id'); ?></label></th>
-          <td><input type="text" name="playersettingsid" id="playersettingsid" value="<?php if (isset($playersettingsid)) print $playersettingsid; ?>" size="40"></td>
-        </tr>
-        <tr>
-          <th scope="row"><label for="paneltype"><?php _e('Panel type'); ?></label></th>
-          <td><input type="text" name="paneltype" id="paneltype" value="<?php if (isset($paneltype)) print $paneltype; ?>" size="40"></td>
-        </tr>
-      </tbody>
-    </table>
-    
     <p class="submit">
       <input type="submit" name="submit" id="submit" class="button-primary" value="<?php _e('Save changes'); ?>">
     </p>
