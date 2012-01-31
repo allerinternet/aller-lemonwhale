@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Aller Lemonwhale\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-31 13:21+0100\n"
-"PO-Revision-Date: 2012-01-31 13:21+0100\n"
+"POT-Creation-Date: 2012-01-31 13:36+0100\n"
+"PO-Revision-Date: 2012-01-31 13:37+0100\n"
 "Last-Translator: Johannes Henrysson <johannes.henrysson@aller.se>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,12 +16,12 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: /Users/itjh/workspace/zahak-dev-mu/wp-content/plugins/aller-lemonwhale\n"
 
-#: /Users/itjh/workspace/zahak-dev-mu/wp-content/plugins/aller-lemonwhale/AllerLemonwhale.class.php:49
+#: /Users/itjh/workspace/zahak-dev-mu/wp-content/plugins/aller-lemonwhale/AllerLemonwhale.class.php:48
 #: /Users/itjh/workspace/zahak-dev-mu/wp-content/plugins/aller-lemonwhale/templates/admin.php:2
 msgid "administration"
 msgstr "administration"
 
-#: /Users/itjh/workspace/zahak-dev-mu/wp-content/plugins/aller-lemonwhale/AllerLemonwhale.class.php:71
+#: /Users/itjh/workspace/zahak-dev-mu/wp-content/plugins/aller-lemonwhale/AllerLemonwhale.class.php:70
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Du har inte behörighet att visa denna sida."
 
@@ -38,8 +38,8 @@ msgid "Available settings for shortcode"
 msgstr "Tillgängliga inställningar för \"shortcode\"."
 
 #: /Users/itjh/workspace/zahak-dev-mu/wp-content/plugins/aller-lemonwhale/templates/admin.php:18
-msgid "Link from video (from manage videos page)."
-msgstr "Länk från \"Manage videos\"."
+msgid "Copy link from video (from manage videos page at Lemonwhale). Don't forget to choose HTML5."
+msgstr "Kopiera videolänk från \"Manage videos\" hos Lemonwhale. Glöm inte att välja HTML5."
 
 #: /Users/itjh/workspace/zahak-dev-mu/wp-content/plugins/aller-lemonwhale/templates/admin.php:23
 msgid "Set width of player."

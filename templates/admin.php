@@ -14,8 +14,8 @@
   <ul>
     <li>
       <img src="<?php print plugins_url('aller-lemonwhale/images/lemonwhale-demo.jpg'); ?>" alt="Lemonwhale videoid" title="Lemonwhale videoid"><br>
-      <b>videoid</b><br>
-      <?php _e('Link from video (from manage videos page).', 'aller-lemonwhale'); ?>
+      <b>link</b><br>
+      <?php _e('Copy link from video (from manage videos page at Lemonwhale). Don\'t forget to choose HTML5.', 'aller-lemonwhale'); ?>
     </li>
     
     <li>
