@@ -65,7 +65,7 @@ class AllerLemonwhale
   /**
    *  Render admin page, to set up plugin.
    */
-  function render_admin_page() {
+  function render_admin_page() {    
     if (!current_user_can('publish_pages'))
       wp_die(__('You do not have sufficient permissions to access this page.'));
     
@@ -92,23 +92,35 @@ class AllerLemonwhale
     if (is_array($settings))
       extract($settings);
     
-    // For future development...
-    if (!isset($args['player'])) $args['player'] = '';
-    switch ($args['player']) {
-      case 'apa':
-        $movie = 'apa';
-        break;
-      default:
-        $movie = 'http://swf.lwcdn.com/flash11/Satellite.swf';
-        $movie_short = 'Sattelite.swf';
-    }
-    
     $width = isset($args['width']) ? $args['width'] : $width;
     $height = isset($args['height']) ? $args['height'] : $height;
+    
+    // Find necessary ids.
+    $videoid = $this->simple_regexp('%id=([^"&]+)%s', $args[0]);
+    $playerid = $this->simple_regexp('%pi=([^"&]+)%s', $args[0]);
     
     // Include template as string, otherwise we can't return it.
     ob_start();
     include($this->get_template('videoplayer'));
     return ob_get_clean();
+  }
+  
+  /**
+   *  Run a simple regexp, and return wanted result.
+   *
+   *  @param string $regexp
+   *  @param string $haystack
+   *    Haystack to search for.
+   *  @param int response
+   *    Which response are we searching for ($match[1] default).
+   *  @return string
+   *    Result from regexp, $match[1] as default.
+   */
+  function simple_regexp($regexp, $haystack, $response = 1) {
+    if (!preg_match($regexp, $haystack, $result))
+      return '';
+    
+    $result = !empty($result[$response]) ? $result[$response] : '';
+    return $result;
   }
 }
