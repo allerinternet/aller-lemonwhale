@@ -59,7 +59,7 @@ class AllerLemonwhale
   }
   
   function load_translation() {
-    load_plugin_textdomain('aller-lemonwhale', FALSE, basename(plugin_basename(__FILE__)) . '/lang/');
+    load_plugin_textdomain('aller-lemonwhale', FALSE, dirname(plugin_basename(__FILE__)) . '/lang/');
   }
   
   /**
