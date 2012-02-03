@@ -7,6 +7,7 @@
  *  Version: 0.1a
  */
 require_once(dirname(__FILE__) . '/AllerLemonwhale.class.php');
+require_once(dirname(__FILE__) . '/AllerLemonwhale.widget.php');
 
 if (isset($allerLemonwhale))
   return FALSE;

@@ -21,6 +21,9 @@ class AllerLemonwhale
     add_action('init', array($this, 'load_translation'));
     add_action('admin_menu', array($this, 'add_options_page'));
     add_shortcode('lemonwhale', array($this, 'render_video_player'));
+    
+    // Add widget.
+    add_action('widgets_init', create_function('', 'register_widget(\'AllerLemonwhale_Widget\');'));
   }
   
   /**

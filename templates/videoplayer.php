@@ -1,1 +1,1 @@
-<iframe src="http://ljsp.lwcdn.com/api/video/embed.jsp?id=<?php print $videoid; ?>&pi=<?php print $playerid; ?>" title="0;" width="<?php print $width; ?>" height="<?php print $height; ?>" frameborder="0"></iframe>
+<iframe src="http://ljsp.lwcdn.com/api/video/embed.jsp?id=<?php print $videoid; ?>&pi=<?php print $playerid; ?>" title="0;" width="<?php print $width; ?>" height="<?php print $height; ?>" frameborder="0" scrolling="no"></iframe>
